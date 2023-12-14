@@ -1,0 +1,37 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 20px;
+background-color: aliceblue;
+ }
+form {
+ max-width: 600px;
+margin: 0 auto;
+ }
+label {
+ display: block;
+margin-bottom: 5px;
+ }
+input, select {
+ width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+box-sizing: border-box;
+ }
+button {
+ background-color: #cc3488;
+color: white;
+padding: 10px 15px;
+ border: none;
+border-radius: 5px;
+cursor: pointer;
+ }
+input:required,
+ select:required {
+ border: 2px solid #e44d26; }
+input:focus, select:focus {
+ outline: 2px solid #4CAF50;
+ }
+button:hover {
+ background-color: #1f704a
+ }
+
